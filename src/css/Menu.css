@@ -1,0 +1,198 @@
+
+
+/* .Barra {
+    width: 100vw;
+    height: 25vh;
+    padding: 0;
+    margin: 0;
+    color: lavender;
+    padding-bottom: 4rem;
+} */
+
+/* @media (min-width: 1400px) {
+    .Barra {
+        height: 7vh !important;
+}
+}*/
+
+
+.navbar {
+    font-family: monospace;
+    font-size: 1.1rem;
+    width: 100vw;
+    height: auto !important;
+    min-height: max-content;
+    padding: 0;
+    margin: 0;
+    left: 5vw;
+    display: block;
+    text-decoration: none !important;
+    /* justify-content: center !important; */
+    justify-content: space-around  !important;
+    justify-items: baseline !important;
+    background: lightseagreen;
+/*     background: linear-gradient(45deg, gray, pink, deeppink); */
+}
+
+.navbar-brand a{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem !important;
+}
+
+.navbar-nav {
+    justify-content: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8rem !important;
+    font-weight: 800;
+    width: 100%;
+    height: fit-content;
+    right: auto;
+    margin-left: 15vw;
+    margin-right: 3vw;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    right: 8vw;
+    margin-right: 5vw;
+}
+
+.primero {
+    width: 90% !important;
+    align-items: baseline;
+    background: rgba(7, 160, 152, 0.788);
+    border-radius: 5px 5px 10px 60px;
+}
+
+.ultimo {
+    width: 10% !important;
+    align-items: baseline;
+    margin: 3px;
+}
+
+.navbar-brand {
+    width: 30vw;
+    min-width: 15vw;
+    margin: 0;
+    display: block;
+}
+
+.navbar-brand a{
+    width: 30vw;
+    min-width: 15vw;
+    padding-left: 3vw !important;
+    margin: 0;
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    min-width: 3rem;
+    padding: .1rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: right;
+    justify-content: center !important;
+    list-style: none;
+    background-color:rgba(255, 255, 255, 0.303) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.802) !important;
+    border-radius: .5rem !important;
+}
+
+
+
+.navbar-nav li, .primero a, .nav-item span, .navbar-brand a{
+    color: rgb(255, 255, 255) ;
+    text-decoration: none !important;
+    font-size: 1.3rem;
+}
+
+.nav-item span{
+    font-size: 1.6rem !important;
+    align-self: top !important;
+}
+
+.nav-item {
+    align-items: baseline;
+}
+
+
+
+
+@media (max-width: 768px) {
+/*     .Barra {
+        height: 15vh !important;
+    } */
+    .navbar-collapse {
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        width: 10vw !important;
+        height: 30vh !important;
+        right: 0;
+
+    }
+
+    .navbar-nav {
+        justify-content: flex-end !important;
+        justify-items: right !important;
+        background: rgba(179, 25, 187, 0.172);
+        display: inline-flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        width: 70% !important;
+        font-weight: 600;
+        height: fit-content;
+        background: rgba(7, 160, 152, 0.788);
+    }
+
+   .nav-item{
+        justify-content: flex-end !important;
+        justify-items: center !important;        
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .dropdown-item {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+        font-size: 1rem !important;
+        color: rgb(12, 61, 58) !important;
+        text-align: right !important;
+        font-weight: 800;
+    }
+
+}
+
+.nav-item a:hover,
+.navbar-light .navbar-nav .nav-link :hover 
+ {
+    color:   rgba(17, 26, 25, 0.686)  !important;
+}
+
+.nav-item a:active {
+    color:   rgba(255, 255, 255, 0.59)  !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(193, 223, 221, 0.686) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+        color:   rgba(17, 26, 25, 0.686)  !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 253, 253)  !important;
+}
+

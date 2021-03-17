@@ -1,0 +1,17 @@
+.container-fluid {
+    padding: 0 !important;
+}
+
+.carousel-inner {
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    object-position: center center;
+}

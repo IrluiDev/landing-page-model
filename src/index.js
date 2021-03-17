@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './css/index.css';
+// import './css/style.css';
+import App from './components/App';
+import reportWebVitals from './components/reportWebVitals';
+import MenuIcon from '@material-ui/icons/Menu';
+
+// import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css' ;
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+// import 'popper.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
